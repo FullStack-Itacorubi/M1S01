@@ -1,0 +1,25 @@
+body {
+    height: 100%;
+}
+
+.container {
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.caixa {
+    width: 20%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid red;
+}
+
+.caixa-2 {
+    align-self: flex-end;
+}
+
+.caixa-3 {
+    align-self: center;
+}

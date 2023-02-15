@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    background: linear-gradient(4deg, rgba(5,59,215,1) 0%, rgba(255,0,44,0.9976365546218487) 100%);
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.container {
+    text-align: justify;
+}
+
+.container::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+section {
+    display: inline-block;
+    height: 200px;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 20px;
+
+    background-color: white;
+    box-shadow: 3px 10px 59px -21px rgba(28,28,28,1);
+
+    text-align: center;
+
+    margin-bottom: 50px;
+    /* margin-right: 100px; */
+}
+
+/* .caixa-2 {
+    margin-left: auto;
+}
+
+.caixa-3 {
+    margin-left: auto;
+    margin-right: auto;
+} */
